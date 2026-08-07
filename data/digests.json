@@ -1,0 +1,102 @@
+[
+  {
+    "id": "D1",
+    "topic": "Sleep Science",
+    "tags": ["sleep", "recovery"],
+    "difficulty": "beginner",
+    "title": "Why Your 11pm Scroll Is Wrecking Tomorrow's Focus",
+    "summary": "Blue light and late scrolling delay melatonin release, pushing your sleep cycle later than you plan.",
+    "body": "Melatonin, the hormone that signals 'time to sleep' to your brain, starts rising a couple hours before your natural bedtime. Screens emit blue-wavelength light that suppresses this rise, effectively telling your brain it's still daytime. Practical takeaway: dim screens or switch to night mode 60-90 minutes before bed, and your natural sleep signal recovers within a few nights.",
+    "quiz": {"question": "What hormone does blue light suppress before bed?", "answer": "melatonin"}
+  },
+  {
+    "id": "D2",
+    "topic": "Sleep Science",
+    "tags": ["sleep", "recovery"],
+    "difficulty": "intermediate",
+    "title": "Sleep Stages 101: What REM and Deep Sleep Actually Do",
+    "summary": "Deep sleep repairs the body; REM sleep consolidates memory and emotion processing.",
+    "body": "A full sleep cycle (~90 minutes) moves through light sleep, deep sleep, and REM. Deep sleep dominates the first half of the night and is when growth hormone release and physical repair peak. REM sleep, more concentrated in the second half of the night, is when the brain consolidates memories and processes emotional experiences. Cutting sleep short disproportionately steals REM time, which is why short sleep hits mood and memory harder than physical energy.",
+    "quiz": {"question": "Which sleep stage is more concentrated in the second half of the night?", "answer": "REM"}
+  },
+  {
+    "id": "D3",
+    "topic": "Nutrition",
+    "tags": ["nutrition", "blood_sugar"],
+    "difficulty": "beginner",
+    "title": "Why Pairing Carbs With Protein Flattens Your Energy Crashes",
+    "summary": "Protein and fiber slow glucose absorption, avoiding the spike-and-crash pattern of eating carbs alone.",
+    "body": "Eating a carb-heavy snack alone causes blood glucose to spike quickly, triggering a matching insulin spike that often overshoots, leaving you with a crash 60-90 minutes later. Pairing carbs with protein or fiber slows digestion and glucose absorption, producing a flatter curve and steadier energy. This is why an apple alone often leaves you hungrier sooner than an apple with peanut butter.",
+    "quiz": {"question": "What two nutrients slow glucose absorption when paired with carbs?", "answer": "protein and fiber"}
+  },
+  {
+    "id": "D4",
+    "topic": "Nutrition",
+    "tags": ["nutrition", "blood_sugar"],
+    "difficulty": "intermediate",
+    "title": "Reading Your Own Glucose Response Without a CGM",
+    "summary": "Post-meal fatigue, cravings within 2 hours, and afternoon crashes are proxy signals for glucose swings.",
+    "body": "You don't need a continuous glucose monitor to spot a rough glucose pattern. Reliable proxy signals include: feeling sleepy within 30-60 minutes of a meal (a sign of a sharp spike-then-drop), strong sugar cravings returning within 2 hours of eating, and a consistent early-afternoon energy crash. Tracking these patterns for a week against what you ate gives you a rough personal map of which meals spike you hardest, even without lab equipment.",
+    "quiz": {"question": "What proxy signal suggests a sharp glucose spike-then-drop after a meal?", "answer": "feeling sleepy within 30-60 minutes of eating"}
+  },
+  {
+    "id": "D5",
+    "topic": "Cardiovascular Health",
+    "tags": ["heart", "cholesterol"],
+    "difficulty": "beginner",
+    "title": "LDL vs HDL: The Two Numbers on Your Lipid Panel That Matter Most",
+    "summary": "LDL carries cholesterol toward arteries; HDL helps clear it away. The ratio matters more than either number alone.",
+    "body": "Your lipid panel reports several numbers, but LDL ('bad' cholesterol) and HDL ('good' cholesterol) are the two most commonly discussed. LDL particles carry cholesterol into artery walls, contributing to plaque buildup over years. HDL particles help transport excess cholesterol back to the liver for clearance. A low LDL alone isn't the full picture -- your LDL/HDL ratio and total context (triglycerides, family history) matter more than a single number in isolation. This is general education, not a diagnosis -- always review your specific results with a doctor.",
+    "quiz": {"question": "Which cholesterol type helps clear cholesterol away from arteries?", "answer": "HDL"}
+  },
+  {
+    "id": "D6",
+    "topic": "Cardiovascular Health",
+    "tags": ["heart", "blood_pressure"],
+    "difficulty": "beginner",
+    "title": "Why Sodium Affects Blood Pressure More For Some People Than Others",
+    "summary": "Salt sensitivity varies by genetics, kidney function, and age -- it's not a uniform effect across everyone.",
+    "body": "Sodium raises blood pressure by increasing fluid retention, which increases blood volume and pressure on artery walls. But not everyone responds equally -- 'salt sensitivity' varies based on genetics, kidney function, and age (older adults tend to be more salt-sensitive). This is why two people can eat identical diets and see different blood pressure responses. If blood pressure runs high, reducing sodium is a reasonable first lever to test, tracked with a home monitor over a couple weeks.",
+    "quiz": {"question": "Name one factor that affects individual salt sensitivity.", "answer": "genetics, kidney function, or age"}
+  },
+  {
+    "id": "D7",
+    "topic": "Stress & Mental Health",
+    "tags": ["stress", "mental_health"],
+    "difficulty": "beginner",
+    "title": "What Cortisol Actually Does (It's Not Just 'the Stress Hormone')",
+    "summary": "Cortisol follows a natural daily rhythm and only becomes a problem when chronically elevated.",
+    "body": "Cortisol gets a bad reputation as purely 'the stress hormone,' but it naturally peaks in the morning to help you wake up and mobilize energy, then tapers through the day. The issue isn't cortisol existing -- it's chronic elevation from ongoing stress, which disrupts sleep, appetite regulation, and immune function over time. Short-term cortisol spikes (a tough workout, a deadline) are normal and even useful; the health-relevant concern is a pattern that never comes back down.",
+    "quiz": {"question": "When does cortisol naturally peak during the day?", "answer": "morning"}
+  },
+  {
+    "id": "D8",
+    "topic": "Stress & Mental Health",
+    "tags": ["stress", "mental_health"],
+    "difficulty": "intermediate",
+    "title": "The Physiology of Why Deep Breathing Actually Calms You Down",
+    "summary": "Slow exhales activate the vagus nerve, directly signaling your nervous system to downshift.",
+    "body": "Slow, extended exhales stimulate the vagus nerve, which runs from the brainstem through the chest and abdomen and is the primary channel of the parasympathetic ('rest and digest') nervous system. Activating it lowers heart rate and shifts the body out of a stress response. This is why breathing techniques with a longer exhale than inhale (e.g., 4 seconds in, 8 seconds out) tend to calm faster than breathing patterns without that asymmetry.",
+    "quiz": {"question": "Which nerve does slow exhaling stimulate to calm the body?", "answer": "vagus nerve"}
+  },
+  {
+    "id": "D9",
+    "topic": "Movement & Exercise",
+    "tags": ["exercise", "recovery"],
+    "difficulty": "beginner",
+    "title": "Why Soreness Two Days Later Isn't a Sign of a 'Better' Workout",
+    "summary": "Delayed soreness reflects unfamiliar movement stress, not workout quality -- and it fades as your body adapts.",
+    "body": "Delayed Onset Muscle Soreness (DOMS) happens when muscles experience unfamiliar mechanical stress -- often from new exercises, more range of motion, or eccentric (lengthening) movements. It's not a reliable indicator of how effective a workout was; you can have excellent training sessions with minimal soreness, especially as your body adapts to a routine over a few weeks. Chasing soreness as a goal often leads to overtraining rather than better results.",
+    "quiz": {"question": "What is Delayed Onset Muscle Soreness commonly abbreviated as?", "answer": "DOMS"}
+  },
+  {
+    "id": "D10",
+    "topic": "Gut Health",
+    "tags": ["gut", "nutrition"],
+    "difficulty": "intermediate",
+    "title": "Your Gut Bacteria Respond to Diet Changes Faster Than You'd Think",
+    "summary": "Gut microbiome composition can shift measurably within days of a significant diet change, not months.",
+    "body": "Research using stool sampling has shown gut microbiome composition can shift within 1-4 days of a substantial diet change (e.g., switching to a much higher-fiber or higher-fat diet), though the community tends to snap back once the old diet resumes unless the change is sustained. This is part of why short-term 'gut reset' diets show quick initial effects but often don't stick -- durable microbiome shifts need weeks to months of consistent dietary pattern, not a one-time detox.",
+    "quiz": {"question": "How quickly can gut microbiome composition shift after a major diet change?", "answer": "1-4 days"}
+  }
+]

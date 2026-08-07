@@ -1,0 +1,52 @@
+[
+  {
+    "id": "L1",
+    "name": "Alex",
+    "interests": [
+      "sleep",
+      "stress",
+      "mental_health"
+    ],
+    "goal": "Understand why I'm tired and stressed all the time",
+    "literacy_level": "beginner",
+    "read_digests": [],
+    "quiz_scores": {},
+    "sessions": [],
+    "points": 0,
+    "badges": []
+  },
+  {
+    "id": "L2",
+    "name": "Priya",
+    "interests": [
+      "heart",
+      "cholesterol",
+      "blood_pressure",
+      "nutrition"
+    ],
+    "goal": "Understand my recent lipid panel results",
+    "literacy_level": "intermediate",
+    "read_digests": [],
+    "quiz_scores": {},
+    "sessions": [],
+    "points": 0,
+    "badges": []
+  },
+  {
+    "id": "L3",
+    "name": "Sam",
+    "interests": [
+      "exercise",
+      "recovery",
+      "nutrition",
+      "blood_sugar"
+    ],
+    "goal": "Optimize energy and recovery around workouts",
+    "literacy_level": "beginner",
+    "read_digests": [],
+    "quiz_scores": {},
+    "sessions": [],
+    "points": 0,
+    "badges": []
+  }
+]
