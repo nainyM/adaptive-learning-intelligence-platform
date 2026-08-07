@@ -2,7 +2,11 @@
 
 **A mock health-literacy EdTech product** — personalized digests, adaptive difficulty, gamification, a RAG-style learning copilot, and a mastery/engagement/completion measurement loop.
 
+**[Live app →](https://adaptive-learning-intelligence-platform-5f4bsbxhgtdj44nchtp2q4.streamlit.app/)**
+
 > **Note:** this runs on synthetic/mock data (3 sample learners, 10 sample health digests) — it's a working architecture demo, not a real course catalog or real user base. The RAG copilot uses simple keyword retrieval + templated responses, not a live LLM call.
+
+![Home screen — mock login with animated learning-buddy mascot](docs/home_preview.png)
 
 ---
 
