@@ -7,9 +7,11 @@ if ROOT not in sys.path:
 
 import streamlit as st
 from src import data_store, gamification
+from app import mascot
 
 st.set_page_config(page_title="Health Literacy — Adaptive Learning", layout="wide")
 
+mascot.render("idle")
 st.title("Adaptive Learning Intelligence Platform")
 st.caption("A mock health-literacy EdTech product — personalized digests, adaptive difficulty, gamification, and a RAG learning copilot. All data is simulated.")
 

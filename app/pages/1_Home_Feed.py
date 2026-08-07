@@ -8,11 +8,13 @@ if ROOT not in sys.path:
 import streamlit as st
 from src import data_store, recommend
 from app.common import require_learner
+from app import mascot
 
 st.set_page_config(page_title="Home Feed", layout="wide")
 learner, learners = require_learner()
 digests = data_store.load_digests()
 
+mascot.render("idle", size=80)
 st.title(f"Home Feed — {learner['name']}")
 st.caption(f"Recommendations based on interests ({', '.join(learner['interests'])}) and literacy level ({learner['literacy_level']}).")
 

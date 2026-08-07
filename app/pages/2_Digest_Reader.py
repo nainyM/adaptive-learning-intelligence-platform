@@ -8,6 +8,7 @@ if ROOT not in sys.path:
 import streamlit as st
 from src import data_store, adaptive, gamification
 from app.common import require_learner
+from app import mascot
 
 st.set_page_config(page_title="Digest Reader", layout="wide")
 learner, learners = require_learner()
@@ -45,8 +46,10 @@ if st.button("Submit answer", type="primary"):
     data_store.update_learner(learners, learner)
 
     if correct:
+        mascot.render("celebrate", size=90)
         st.success(f"Correct! Answer: {digest['quiz']['answer']}. +15 points.")
     else:
+        mascot.render("encourage", size=90)
         st.warning(f"Not quite — the answer was: {digest['quiz']['answer']}. +10 points for reading.")
 
     st.info(f"Literacy level is now: **{learner['literacy_level']}** (adjusts automatically based on quiz performance).")

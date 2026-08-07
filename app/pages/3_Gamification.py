@@ -8,14 +8,15 @@ if ROOT not in sys.path:
 import streamlit as st
 from src import data_store, gamification, notifications, recommend
 from app.common import require_learner
+from app import mascot
 
 st.set_page_config(page_title="Gamification & Notifications", layout="wide")
 learner, learners = require_learner()
 digests = data_store.load_digests()
 
-st.title(f"Progress — {learner['name']}")
-
 streak = gamification.current_streak(learner)
+mascot.render("celebrate" if streak >= 3 or learner["badges"] else "idle", size=90)
+st.title(f"Progress — {learner['name']}")
 col1, col2, col3 = st.columns(3)
 col1.metric("Points", learner["points"])
 col2.metric("Current streak (days)", streak)
